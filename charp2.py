@@ -81,6 +81,7 @@ def fib_seq(n):
 #
 # profile.run('print(fib_seq(20)) ') # 147 function calls (89 primitive calls) in 0.000 seconds
 
+
 import cProfile
 import pstats
 
