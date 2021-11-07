@@ -95,12 +95,11 @@ import pstats
 # stats.strip_dirs().sort_stats('cumulative').print_stats()
 # stats.print_callers()
 state = {"a1": []}
-a = "1,2,3"
+a = "a,b,c"
 c = a.split(",")
-print(c)
-print(type(c))
-state['a1'].append(c)
-state['a1'].append(c)
-state['a1'].append(c)
-print(state)
+d = "d,e,f".split(",")
+
+result = c + d
+
+print(result)
 
